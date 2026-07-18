@@ -24,7 +24,7 @@ const ProtectedRoute = ({ children }) => {
     return (
       <div className="flex h-screen w-screen items-center justify-center bg-slate-950 text-white">
         <div className="flex flex-col items-center gap-4">
-          <div className="h-10 w-10 animate-spin rounded-full border-4 border-violet-500 border-t-transparent"></div>
+          <div className="h-10 w-10 animate-spin rounded-full border-4 border-teal-500 border-t-transparent"></div>
           <p className="text-slate-400 font-medium">Securing session...</p>
         </div>
       </div>
@@ -116,10 +116,10 @@ function App() {
         {/* 404 Route */}
         <Route path="*" element={
           <div className="flex h-screen flex-col items-center justify-center bg-slate-950 text-white px-4">
-            <h1 className="text-9xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-violet-500 to-purple-500">404</h1>
+            <h1 className="text-9xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-cyan-500">404</h1>
             <h2 className="mt-4 text-2xl font-bold">Page Not Found</h2>
             <p className="mt-2 text-slate-400 text-center max-w-md">The page you are looking for does not exist or has been relocated to another domain.</p>
-            <a href="/" className="mt-6 px-6 py-2.5 bg-violet-600 hover:bg-violet-700 text-white rounded-lg font-medium transition-colors">
+            <a href="/" className="mt-6 px-6 py-2.5 bg-teal-600 hover:bg-teal-700 text-white rounded-lg font-medium transition-colors">
               Return Home
             </a>
           </div>

@@ -28,13 +28,13 @@ export default function Register() {
 
   return (
     <div className="min-h-screen bg-[#030712] text-white flex items-center justify-center p-6 relative">
-      <div className="absolute top-1/4 left-1/4 w-[400px] h-[400px] bg-violet-700/5 rounded-full blur-[100px] pointer-events-none"></div>
+      <div className="absolute top-1/4 left-1/4 w-[400px] h-[400px] bg-teal-700/5 rounded-full blur-[100px] pointer-events-none"></div>
       <div className="absolute bottom-1/4 right-1/4 w-[400px] h-[400px] bg-blue-700/5 rounded-full blur-[100px] pointer-events-none"></div>
 
       <div className="w-full max-w-md p-8 rounded-2xl border border-white/5 bg-slate-900/40 backdrop-blur-xl shadow-2xl relative">
         {/* Header */}
         <div className="text-center flex flex-col items-center">
-          <div className="h-10 w-10 rounded-xl bg-gradient-to-tr from-violet-600 to-indigo-600 flex items-center justify-center shadow-lg shadow-violet-500/25 mb-4">
+          <div className="h-10 w-10 rounded-xl bg-gradient-to-tr from-teal-500 to-cyan-500 flex items-center justify-center shadow-lg shadow-teal-500/25 mb-4">
             <Sparkles className="h-5 w-5 text-white" />
           </div>
           <h2 className="font-outfit text-2xl font-bold">Create Account</h2>
@@ -58,8 +58,8 @@ export default function Register() {
               </span>
               <input
                 type="text"
-                placeholder="Alex Mercer"
-                className="w-full pl-10 pr-4 py-2 rounded-lg bg-slate-950 border border-white/10 focus:border-violet-500 text-sm focus:outline-none transition-colors"
+                placeholder="John Doe"
+                className="w-full pl-10 pr-4 py-2 rounded-lg bg-slate-950 border border-white/10 focus:border-teal-500 text-sm focus:outline-none transition-colors"
                 {...register('name', { required: 'Name is required' })}
               />
             </div>
@@ -75,7 +75,7 @@ export default function Register() {
               <input
                 type="email"
                 placeholder="you@example.com"
-                className="w-full pl-10 pr-4 py-2 rounded-lg bg-slate-950 border border-white/10 focus:border-violet-500 text-sm focus:outline-none transition-colors"
+                className="w-full pl-10 pr-4 py-2 rounded-lg bg-slate-950 border border-white/10 focus:border-teal-500 text-sm focus:outline-none transition-colors"
                 {...register('email', { required: 'Email is required' })}
               />
             </div>
@@ -91,7 +91,7 @@ export default function Register() {
               <input
                 type="password"
                 placeholder="&bull;&bull;&bull;&bull;&bull;&bull;"
-                className="w-full pl-10 pr-4 py-2 rounded-lg bg-slate-950 border border-white/10 focus:border-violet-500 text-sm focus:outline-none transition-colors"
+                className="w-full pl-10 pr-4 py-2 rounded-lg bg-slate-950 border border-white/10 focus:border-teal-500 text-sm focus:outline-none transition-colors"
                 {...register('password', {
                   required: 'Password is required',
                   minLength: { value: 6, message: 'Password must be at least 6 characters' }
@@ -129,7 +129,7 @@ export default function Register() {
         {/* Footer */}
         <p className="mt-8 text-center text-xs text-slate-500">
           Already have an account?{' '}
-          <Link to="/login" className="text-violet-400 hover:underline font-medium">
+          <Link to="/login" className="text-teal-400 hover:underline font-medium">
             Sign in
           </Link>
         </p>

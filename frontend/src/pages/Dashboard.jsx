@@ -166,14 +166,16 @@ export default function Dashboard() {
       <aside className="w-64 border-r border-white/5 bg-[#070b19] flex flex-col justify-between p-6 shrink-0 hidden md:flex">
         <div className="flex flex-col gap-8">
           <div className="flex items-center gap-2 cursor-pointer" onClick={() => navigate('/')}>
-            <div className="h-8 w-8 rounded bg-gradient-to-tr from-violet-600 to-indigo-600 flex items-center justify-center shadow shadow-violet-500/20">
-              <Sparkles className="h-4 w-4 text-white" />
+            <div className="h-8 w-8 rounded bg-gradient-to-tr from-teal-500 to-cyan-500 flex items-center justify-center shadow shadow-teal-500/20">
+              <Sparkles className="h-5 w-5 text-white" />
             </div>
-            <span className="font-outfit font-bold text-lg text-white">ResumeForge AI</span>
+            <span className="font-outfit font-bold text-lg bg-clip-text text-transparent bg-gradient-to-r from-white to-slate-400">
+              ResumeForge <span className="text-teal-400 text-xs font-semibold uppercase">AI</span>
+            </span>
           </div>
 
-          <nav className="flex flex-col gap-2">
-            <Link to="/dashboard" className="flex items-center gap-3 px-4 py-2 bg-violet-600/10 text-violet-400 font-semibold rounded-lg text-sm transition-all border border-violet-500/10">
+          <nav className="flex flex-col gap-1.5 mt-8">
+            <Link to="/dashboard" className="flex items-center gap-3 px-4 py-2 bg-teal-600/10 text-teal-400 font-semibold rounded-lg text-sm transition-all border border-teal-500/10">
               <FileText className="w-4.5 h-4.5" /> Resumes Dashboard
             </Link>
             <Link to="/profile" className="flex items-center gap-3 px-4 py-2 text-slate-400 hover:text-white rounded-lg text-sm hover:bg-white/[0.02] transition-all">
@@ -196,10 +198,9 @@ export default function Dashboard() {
           </nav>
         </div>
 
-        {/* User Card info */}
         <div className="flex items-center justify-between border-t border-white/5 pt-4">
           <div className="flex items-center gap-3 overflow-hidden">
-            <div className="h-9 w-9 rounded-full bg-violet-600 flex items-center justify-center font-bold text-white uppercase text-sm shrink-0">
+            <div className="h-9 w-9 rounded-full bg-teal-600 flex items-center justify-center font-bold text-white uppercase text-sm shrink-0">
               {user?.name?.charAt(0) || 'U'}
             </div>
             <div className="flex flex-col overflow-hidden text-left">
@@ -213,27 +214,24 @@ export default function Dashboard() {
         </div>
       </aside>
 
-      {/* Main Content Area */}
       <main className="flex-grow p-8 overflow-y-auto">
-        {/* Header */}
         <header className="flex items-center justify-between pb-6 border-b border-white/5">
           <div className="text-left">
             <h1 className="text-3xl font-extrabold font-outfit">Hello, {user?.name || 'User'}!</h1>
             <p className="text-slate-400 text-xs mt-1">Manage, tailor, and audit your applications</p>
           </div>
-          <button onClick={handleCreateResume} className="px-5 py-2.5 bg-violet-600 hover:bg-violet-700 text-white rounded-lg font-semibold text-sm transition-all shadow flex items-center gap-2">
+          <button onClick={handleCreateResume} className="px-5 py-2.5 bg-teal-600 hover:bg-teal-700 text-white rounded-lg font-semibold text-sm transition-all shadow flex items-center gap-2">
             <Plus className="w-4.5 h-4.5" /> Create Resume
           </button>
         </header>
 
-        {/* Metrics Row */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-8">
           <div className="p-6 rounded-xl border border-white/5 bg-slate-900/30 text-left flex items-center justify-between">
             <div>
               <p className="text-xs text-slate-500 font-semibold uppercase tracking-wider">Total Resumes</p>
               <h3 className="text-3xl font-extrabold font-outfit mt-2">{resumes.length}</h3>
             </div>
-            <FileText className="w-10 h-10 text-violet-400/20" />
+            <FileText className="w-10 h-10 text-teal-400/20" />
           </div>
 
           <div className="p-6 rounded-xl border border-white/5 bg-slate-900/30 text-left flex items-center justify-between">
@@ -247,28 +245,25 @@ export default function Dashboard() {
           <div className="p-6 rounded-xl border border-white/5 bg-slate-900/30 text-left flex items-center justify-between">
             <div>
               <p className="text-xs text-slate-500 font-semibold uppercase tracking-wider">Public Portfolios</p>
-              <h3 className="text-3xl font-extrabold font-outfit mt-2 text-blue-400">1 Live</h3>
+              <h3 className="text-3xl font-extrabold font-outfit mt-2 text-teal-400">1 Live</h3>
             </div>
-            <ExternalLink className="w-10 h-10 text-blue-400/20" />
+            <ExternalLink className="w-10 h-10 text-teal-400/20" />
           </div>
         </div>
 
-        {/* Core Layout Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-8">
-          {/* Left Column: Resumes lists */}
           <div className="lg:col-span-2 flex flex-col gap-6 text-left">
             <h2 className="text-xl font-bold font-outfit">My Resumes</h2>
 
             {loading ? (
               <div className="flex items-center justify-center h-48 rounded-xl border border-white/5 bg-slate-900/10">
-                <div className="h-8 w-8 animate-spin rounded-full border-4 border-violet-500 border-t-transparent"></div>
+                <div className="h-8 w-8 animate-spin rounded-full border-4 border-teal-500 border-t-transparent"></div>
               </div>
             ) : resumes.length === 0 ? (
-              <div className="flex flex-col items-center justify-center p-12 rounded-xl border border-dashed border-white/10 bg-slate-900/10 text-center">
-                <FileText className="w-12 h-12 text-slate-600 mb-4" />
-                <h4 className="font-bold text-sm">No resumes created yet</h4>
-                <p className="text-xs text-slate-500 mt-1 max-w-xs">Create your first resume draft or seed it from your profile details.</p>
-                <button onClick={handleCreateResume} className="mt-4 px-4 py-2 bg-violet-600 hover:bg-violet-700 text-white rounded-lg text-xs font-semibold">
+              <div className="flex flex-col items-center justify-center py-20 border border-dashed border-white/10 rounded-xl bg-slate-900/10">
+                <FileText className="w-10 h-10 text-slate-500 mb-3" />
+                <p className="text-slate-400 text-sm font-medium">No resumes found</p>
+                <button onClick={handleCreateResume} className="mt-4 px-4 py-2 bg-teal-600 hover:bg-teal-700 text-white rounded-lg text-xs font-semibold">
                   Create Resume
                 </button>
               </div>
@@ -277,7 +272,7 @@ export default function Dashboard() {
                 {resumes.map((resume) => (
                   <motion.div
                     key={resume._id}
-                    className="p-5 rounded-xl border border-white/5 bg-slate-900/30 hover:border-violet-500/20 transition-all flex flex-col justify-between gap-4"
+                    className="p-5 rounded-xl border border-white/5 bg-slate-900/30 hover:border-teal-500/20 transition-all flex flex-col justify-between gap-4"
                   >
                     <div>
                       <div className="flex items-start justify-between">
@@ -299,8 +294,8 @@ export default function Dashboard() {
                       <p className="text-[10px] text-slate-500 mt-1">{resume.targetRole}</p>
                     </div>
 
-                    <div className="flex gap-2 pt-3 border-t border-white/5">
-                      <button onClick={() => navigate(`/editor/${resume._id}`)} className="flex-grow py-1.5 bg-violet-600/10 hover:bg-violet-600/20 text-violet-400 font-semibold rounded text-[11px] transition-all">
+                    <div className="flex gap-2 w-full">
+                      <button onClick={() => navigate(`/editor/${resume._id}`)} className="flex-grow py-1.5 bg-teal-600/10 hover:bg-teal-600/20 text-teal-400 font-semibold rounded text-[11px] transition-all">
                         Edit Sections
                       </button>
                       <a 
@@ -318,26 +313,22 @@ export default function Dashboard() {
             )}
           </div>
 
-          {/* Right Column: Import & GitHub fetch integrations */}
           <div className="flex flex-col gap-8 text-left">
-            {/* GitHub Sync */}
             <div className="p-6 rounded-xl border border-white/5 bg-[#070b19] flex flex-col gap-4">
-              <div className="flex items-center gap-2">
-                <Github className="w-5 h-5 text-violet-400" />
-                <h3 className="font-bold font-outfit text-sm">GitHub Profile Import</h3>
+              <div className="flex items-center gap-2 mb-4">
+                <Github className="w-5 h-5 text-teal-400" />
+                <h3 className="font-bold text-sm">Import GitHub Info</h3>
               </div>
-              <p className="text-[11px] text-slate-400 leading-relaxed">
-                Connect your GitHub username to automatically crawl repository metadata, language profiles, and stars count to seed in experience lists.
-              </p>
               <form onSubmit={handleGitHubFetch} className="flex gap-2">
                 <input
                   type="text"
-                  placeholder="Username"
-                  className="flex-grow px-3 py-1.5 rounded-lg bg-slate-950 border border-white/10 text-xs focus:outline-none focus:border-violet-500"
+                  placeholder="Enter GitHub Username"
                   value={githubUsername}
                   onChange={(e) => setGithubUsername(e.target.value)}
+                  className="flex-grow px-3 py-1.5 rounded-lg bg-slate-950 border border-white/10 text-xs focus:outline-none focus:border-teal-500"
+                  required
                 />
-                <button type="submit" disabled={gitLoading} className="px-3 bg-violet-600 hover:bg-violet-700 text-white rounded-lg text-xs font-semibold disabled:bg-violet-800">
+                <button type="submit" disabled={gitLoading} className="px-3 bg-teal-600 hover:bg-teal-700 text-white rounded-lg text-xs font-semibold disabled:bg-teal-800">
                   {gitLoading ? '...' : 'Sync'}
                 </button>
               </form>
@@ -353,16 +344,16 @@ export default function Dashboard() {
                   </div>
                   <div className="grid grid-cols-3 gap-2 text-center mt-2 border-t border-white/5 pt-2">
                     <div>
-                      <p className="text-[10px] text-slate-500">Stars</p>
-                      <p className="font-bold text-violet-400">{githubData.totalStars}</p>
+                      <p className="text-[10px] text-slate-500 font-medium uppercase tracking-wider">Total Stars</p>
+                      <p className="font-bold text-teal-400">{githubData.totalStars}</p>
                     </div>
                     <div>
-                      <p className="text-[10px] text-slate-500">Repos</p>
-                      <p className="font-bold text-violet-400">{githubData.publicRepos}</p>
+                      <p className="text-[10px] text-slate-500 font-medium uppercase tracking-wider">Repos</p>
+                      <p className="font-bold text-teal-400">{githubData.publicRepos}</p>
                     </div>
                     <div>
-                      <p className="text-[10px] text-slate-500">Followers</p>
-                      <p className="font-bold text-violet-400">{githubData.followers}</p>
+                      <p className="text-[10px] text-slate-500 font-medium uppercase tracking-wider">Followers</p>
+                      <p className="font-bold text-teal-400">{githubData.followers}</p>
                     </div>
                   </div>
                   {githubData.projectRecommendations?.length > 0 && (
@@ -403,8 +394,8 @@ export default function Dashboard() {
             </div>
 
             {/* Public Portfolio link info */}
-            <div className="p-6 rounded-xl border border-white/5 bg-gradient-to-tr from-violet-900/10 to-indigo-900/10 flex flex-col gap-4">
-              <div className="flex items-center gap-2 text-violet-400">
+            <div className="p-6 rounded-xl border border-white/5 bg-gradient-to-tr from-teal-900/10 to-indigo-900/10 flex flex-col gap-4">
+              <div className="flex items-center gap-2 text-teal-400">
                 <BookOpen className="w-5 h-5" />
                 <h3 className="font-bold font-outfit text-sm">Public Portfolio Site</h3>
               </div>
