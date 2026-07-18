@@ -75,3 +75,10 @@ If you have Docker installed and want to run the full stack (including local Mon
    ```bash
    docker-compose down
    ```
+
+---
+
+## 🌐 Live Deployments
+
+* **Frontend UI (Netlify):** [https://agent-6a5b2062d0154032f35ea98a--resumeforgeai1.netlify.app/](https://agent-6a5b2062d0154032f35ea98a--resumeforgeai1.netlify.app/)
+* **Backend API (Render):** [https://resumeforge-backend.onrender.com/](https://resumeforge-backend.onrender.com/)
