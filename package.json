@@ -1,0 +1,21 @@
+{
+  "name": "resumeforge-ai",
+  "version": "1.0.0",
+  "description": "Premium AI-powered resume builder",
+  "main": "server.js",
+  "scripts": {
+    "install-all": "npm install && npm install --prefix backend && npm install --prefix frontend --legacy-peer-deps",
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
+    "start": "npm start --prefix backend",
+    "build-frontend": "npm run build --prefix frontend",
+    "docker-build": "docker-compose build",
+    "docker-up": "docker-compose up -d"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,1678 @@
+{
+  "users": [
+    {
+      "_id": "65f1a2b3c4d5e6f7a8b9c0d1",
+      "name": "Alex Mercer",
+      "email": "demo@resumeforge.ai",
+      "password": "demopassword123",
+      "isVerified": true,
+      "role": "user",
+      "createdAt": "2026-07-17T18:53:12.540Z"
+    },
+    {
+      "_id": "6a5a7951eed6adc302784852",
+      "name": "utkarsh agr",
+      "email": "utk@gmail.com",
+      "password": "123456",
+      "isVerified": true,
+      "role": "user",
+      "createdAt": "2026-07-17T18:50:00.000Z"
+    }
+  ],
+  "profiles": [
+    {
+      "_id": "6a5a7a1838f1212663ecd13c",
+      "user": "65f1a2b3c4d5e6f7a8b9c0d1",
+      "phone": "+1 (555) 019-2834",
+      "address": "San Francisco, CA",
+      "portfolioUrl": "https://alexmercer.dev",
+      "githubUsername": "alexmercer",
+      "linkedinUrl": "https://linkedin.com/in/alex-mercer",
+      "skills": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Redis",
+        "TypeScript",
+        "Docker",
+        "AWS",
+        "Jest",
+        "Tailwind CSS"
+      ],
+      "experience": [
+        {
+          "company": "Stripe",
+          "role": "Software Engineer II",
+          "location": "San Francisco, CA",
+          "startDate": "2024-03",
+          "endDate": "",
+          "current": true,
+          "description": [
+            "Developed and optimized developer dashboard components using React and TypeScript, increasing user interaction speed by 35%.",
+            "Refactored checkout API endpoints, reducing median latency by 120ms through intelligent Redis caching strategies.",
+            "Collaborated with product designers to implement responsive, pixel-perfect layouts matching Vercel/Stripe aesthetics."
+          ]
+        },
+        {
+          "company": "Vercel",
+          "role": "Junior Frontend Developer",
+          "location": "Remote",
+          "startDate": "2022-06",
+          "endDate": "2024-02",
+          "current": false,
+          "description": [
+            "Shipped modular dashboard cards and components integrated with Next.js router configurations.",
+            "Wrote over 40+ unit and integration tests with Jest and Testing Library, increasing test coverage from 72% to 94%.",
+            "Implemented smooth layout transition animations utilizing Framer Motion, enhancing user satisfaction ratings."
+          ]
+        }
+      ],
+      "education": [
+        {
+          "school": "Stanford University",
+          "degree": "Bachelor of Science",
+          "fieldOfStudy": "Computer Science",
+          "startDate": "2018-09",
+          "endDate": "2022-06",
+          "cgpa": "3.92",
+          "current": false
+        }
+      ],
+      "projects": [
+        {
+          "title": "ResumeForge AI Builder",
+          "description": "A full-stack, state-of-the-art resume builder platform that analyzes and scores ATS optimization levels in real time.",
+          "technologies": [
+            "React",
+            "Redux",
+            "Tailwind CSS",
+            "Node.js",
+            "MongoDB",
+            "Gemini API"
+          ],
+          "githubUrl": "https://github.com/alexmercer/resumeforge",
+          "liveUrl": "https://resumeforge.ai",
+          "achievements": [
+            "Engineered custom parsing engine using Puppeteer to generate high-quality PDF templates in milliseconds.",
+            "Designed a live ATS score meter showing score feedback in real time with interactive suggestions."
+          ]
+        }
+      ],
+      "certifications": [
+        {
+          "name": "AWS Certified Solutions Architect",
+          "issuer": "Amazon Web Services",
+          "date": "2025-01",
+          "url": "https://aws.amazon.com"
+        }
+      ],
+      "languages": [
+        {
+          "language": "English",
+          "proficiency": "Native"
+        },
+        {
+          "language": "Spanish",
+          "proficiency": "Conversational"
+        }
+      ],
+      "achievements": [
+        "First place at Stanford Hackathon 2021 for AI-powered education assistant.",
+        "Open-source contributor to major React and Next.js libraries with over 500+ stars combined."
+      ]
+    },
+    {
+      "_id": "6a5a7a1838f1212663ecd14f",
+      "user": "6a5a7951eed6adc302784852",
+      "phone": "8826942323",
+      "address": "Bangalore, India",
+      "portfolioUrl": "https://utkarshagarwal03.github.io/",
+      "githubUsername": "https://github.com/utkarshagarwal03",
+      "linkedinUrl": "https://www.linkedin.com/in/utkarsh-agarwal05/",
+      "skills": [
+        "Java",
+        "Python",
+        "C",
+        "SQL",
+        "JDBC",
+        "MySQL",
+        "Git",
+        "GitHub",
+        "Data Structures & Algorithms",
+        "Object-Oriented Programming",
+        "Database Management Systems",
+        "Problem Solving",
+        "System Design"
+      ],
+      "experience": [
+        {
+          "company": "Edunet Foundation (IBM & AICTE)",
+          "role": "AI & Cloud Intern",
+          "location": "Bengaluru, India",
+          "startDate": "2024-06",
+          "endDate": "2024-08",
+          "current": false,
+          "description": [
+            "Worked on AI and cloud computing projects under IBM & AICTE collaboration.",
+            "Gained hands-on experience with cloud platforms and AI technologies.",
+            "Collaborated with team members on real-world industry projects."
+          ]
+        },
+        {
+          "company": "Google Developer Group On Campus",
+          "role": "Member",
+          "location": "Bengaluru, India",
+          "startDate": "2023-09",
+          "endDate": "Present",
+          "current": true,
+          "description": [
+            "Active member of GDG community, participating in tech events and workshops.",
+            "Collaborating with peers on open-source projects and community initiatives.",
+            "Staying updated with latest Google technologies and best practices."
+          ]
+        }
+      ],
+      "education": [
+        {
+          "school": "SJB Institute of Technology, Bengaluru",
+          "degree": "B.E.",
+          "fieldOfStudy": "Computer Science (Data Science)",
+          "startDate": "2022-08",
+          "endDate": "2026-06",
+          "cgpa": "9.26/10.0",
+          "coursework": "Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Software Engineering, Operating Systems",
+          "current": true
+        }
+      ],
+      "projects": [
+        {
+          "title": "ATM Machine System",
+          "description": "Developed a full-stack ATM simulation system using Java, SQL, and JDBC. Implemented secure transaction processing, user authentication, and database management.",
+          "technologies": [
+            "Java",
+            "SQL",
+            "JDBC",
+            "MySQL"
+          ],
+          "githubUrl": "https://github.com/utkarshagarwal03",
+          "liveUrl": ""
+        },
+        {
+          "title": "Hotel Management System",
+          "description": "Built a comprehensive hotel management application in Java with features for room booking, guest management, and billing operations.",
+          "technologies": [
+            "Java",
+            "OOP",
+            "File I/O"
+          ],
+          "githubUrl": "https://github.com/utkarshagarwal03",
+          "liveUrl": ""
+        }
+      ],
+      "certifications": [],
+      "languages": [],
+      "achievements": [
+        "Maintained CGPA of 9.26/10.0 throughout academic career.",
+        "Active problem solver on LeetCode and other competitive programming platforms.",
+        "Member of Google Developer Group On Campus."
+      ]
+    }
+  ],
+  "resumes": [
+    {
+      "_id": "6a5a796eeed6adc302784854",
+      "user": "6a5a7951eed6adc302784852",
+      "title": "New Tailored Resume",
+      "targetRole": "Software Engineer",
+      "styling": {
+        "fontFamily": "Inter",
+        "primaryColor": "#0f172a",
+        "secondaryColor": "#475569",
+        "textColor": "#334155",
+        "backgroundColor": "#ffffff",
+        "margin": "comfortable",
+        "spacing": "normal",
+        "pageSize": "A4"
+      },
+      "sectionOrder": [
+        "summary",
+        "experience",
+        "projects",
+        "skills",
+        "education",
+        "certifications",
+        "languages",
+        "achievements"
+      ],
+      "sectionVisibility": {
+        "summary": true,
+        "experience": true,
+        "education": true,
+        "projects": true,
+        "skills": true,
+        "certifications": true,
+        "languages": true,
+        "achievements": true
+      },
+      "personalInfo": {
+        "name": "utkarsh agr",
+        "email": "utk@gmail.com",
+        "phone": "8826942323",
+        "address": "Bangalore, India",
+        "portfolioUrl": "https://utkarshagarwal03.github.io/",
+        "githubUsername": "https://github.com/utkarshagarwal03",
+        "linkedinUrl": "https://www.linkedin.com/in/utkarsh-agarwal05/"
+      },
+      "summary": "I'm a Computer Science Engineering student and aspiring software engineer based in Bangalore, passionate about building scalable solutions and solving complex problems through code.",
+      "experience": [
+        {
+          "company": "Edunet Foundation (IBM & AICTE)",
+          "role": "AI & Cloud Intern",
+          "location": "Bengaluru, India",
+          "startDate": "2024-06",
+          "endDate": "2024-08",
+          "current": false,
+          "description": [
+            "Spearheaded execution of \"AI and cloud computing projects under IBM & AICTE collaboration\", boosting system operational throughput by 20% and improving delivery timelines.",
+            "Spearheaded execution of \"Gained hands-on experience with cloud platforms and AI technologies\", boosting system operational throughput by 20% and improving delivery timelines.",
+            "Spearheaded execution of \"Collaborated with team members on real-world industry projects\", boosting system operational throughput by 20% and improving delivery timelines."
+          ]
+        },
+        {
+          "company": "Google Developer Group On Campus",
+          "role": "Member",
+          "location": "Bengaluru, India",
+          "startDate": "2023-09",
+          "endDate": "Present",
+          "current": true,
+          "description": [
+            "Active member of GDG community, participating in tech events and workshops.",
+            "Collaborating with peers on open-source projects and community initiatives.",
+            "Staying updated with latest Google technologies and best practices."
+          ]
+        }
+      ],
+      "education": [
+        {
+          "school": "SJB Institute of Technology, Bengaluru",
+          "degree": "B.E.",
+          "fieldOfStudy": "Computer Science (Data Science)",
+          "startDate": "2022-08",
+          "endDate": "2026-06",
+          "cgpa": "9.26/10.0",
+          "coursework": "Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Software Engineering, Operating Systems",
+          "current": true
+        }
+      ],
+      "projects": [
+        {
+          "title": "ATM Machine System",
+          "description": "Developed a full-stack ATM simulation system using Java, SQL, and JDBC. Implemented secure transaction processing, user authentication, and database management.",
+          "technologies": [
+            "Java",
+            "SQL",
+            "JDBC",
+            "MySQL"
+          ],
+          "githubUrl": "https://github.com/utkarshagarwal03",
+          "liveUrl": ""
+        },
+        {
+          "title": "Hotel Management System",
+          "description": "Built a comprehensive hotel management application in Java with features for room booking, guest management, and billing operations.",
+          "technologies": [
+            "Java",
+            "OOP",
+            "File I/O"
+          ],
+          "githubUrl": "https://github.com/utkarshagarwal03",
+          "liveUrl": ""
+        }
+      ],
+      "skills": [
+        "Java",
+        "Python",
+        "C",
+        "SQL",
+        "JDBC",
+        "MySQL",
+        "Git",
+        "GitHub",
+        "Data Structures & Algorithms",
+        "Object-Oriented Programming",
+        "Database Management Systems",
+        "Problem Solving",
+        "System Design"
+      ],
+      "certifications": [],
+      "languages": [],
+      "achievements": [
+        "Maintained CGPA of 9.26/10.0 throughout academic career.",
+        "Active problem solver on LeetCode and other competitive programming platforms.",
+        "Member of Google Developer Group On Campus."
+      ],
+      "atsScore": 100,
+      "createdAt": "2026-07-17T18:50:22.056Z",
+      "updatedAt": "2026-07-17T18:50:22.056Z"
+    }
+  ],
+  "resumeversions": [
+    {
+      "_id": "6a5a7e062c581b80bf2743ca",
+      "createdAt": "2026-07-17T19:09:58.679Z",
+      "updatedAt": "2026-07-17T19:09:58.679Z",
+      "resume": "6a5a796eeed6adc302784854",
+      "versionNumber": 1,
+      "description": "Autosave version 1",
+      "resumeData": {
+        "_id": "6a5a796eeed6adc302784854",
+        "user": "6a5a7951eed6adc302784852",
+        "title": "New Tailored Resume",
+        "targetRole": "Software Engineer",
+        "styling": {
+          "fontFamily": "Inter",
+          "primaryColor": "#0f172a",
+          "secondaryColor": "#475569",
+          "textColor": "#334155",
+          "backgroundColor": "#ffffff",
+          "margin": "comfortable",
+          "spacing": "normal",
+          "pageSize": "A4"
+        },
+        "sectionOrder": [
+          "summary",
+          "experience",
+          "projects",
+          "skills",
+          "education",
+          "certifications",
+          "languages",
+          "achievements"
+        ],
+        "sectionVisibility": {
+          "summary": true,
+          "experience": true,
+          "education": true,
+          "projects": true,
+          "skills": true,
+          "certifications": true,
+          "languages": true,
+          "achievements": true
+        },
+        "personalInfo": {
+          "name": "utkarsh agr",
+          "email": "utk@gmail.com",
+          "phone": "8826942323",
+          "address": "Bangalore, India",
+          "portfolioUrl": "https://utkarshagarwal03.github.io/",
+          "githubUsername": "https://github.com/utkarshagarwal03",
+          "linkedinUrl": "https://www.linkedin.com/in/utkarsh-agarwal05/"
+        },
+        "summary": "I'm a Computer Science Engineering student and aspiring software engineer based in Bangalore, passionate about building scalable solutions and solving complex problems through code.",
+        "experience": [
+          {
+            "company": "Edunet Foundation (IBM & AICTE)",
+            "role": "AI & Cloud Intern",
+            "location": "Bengaluru, India",
+            "startDate": "2024-06",
+            "endDate": "2024-08",
+            "current": false,
+            "description": [
+              "Spearheaded execution of \"AI and cloud computing projects under IBM & AICTE collaboration\", boosting system operational throughput by 20% and improving delivery timelines.",
+              "Spearheaded execution of \"Gained hands-on experience with cloud platforms and AI technologies\", boosting system operational throughput by 20% and improving delivery timelines.",
+              "Spearheaded execution of \"Collaborated with team members on real-world industry projects\", boosting system operational throughput by 20% and improving delivery timelines."
+            ]
+          },
+          {
+            "company": "Google Developer Group On Campus",
+            "role": "Member",
+            "location": "Bengaluru, India",
+            "startDate": "2023-09",
+            "endDate": "Present",
+            "current": true,
+            "description": [
+              "Active member of GDG community, participating in tech events and workshops.",
+              "Collaborating with peers on open-source projects and community initiatives.",
+              "Staying updated with latest Google technologies and best practices."
+            ]
+          }
+        ],
+        "education": [
+          {
+            "school": "SJB Institute of Technology, Bengaluru",
+            "degree": "B.E.",
+            "fieldOfStudy": "Computer Science (Data Science)",
+            "startDate": "2022-08",
+            "endDate": "2026-06",
+            "cgpa": "9.26/10.0",
+            "coursework": "Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Software Engineering, Operating Systems",
+            "current": true
+          }
+        ],
+        "projects": [
+          {
+            "title": "ATM Machine System",
+            "description": "Developed a full-stack ATM simulation system using Java, SQL, and JDBC. Implemented secure transaction processing, user authentication, and database management.",
+            "technologies": [
+              "Java",
+              "SQL",
+              "JDBC",
+              "MySQL"
+            ],
+            "githubUrl": "https://github.com/utkarshagarwal03",
+            "liveUrl": ""
+          },
+          {
+            "title": "Hotel Management System",
+            "description": "Built a comprehensive hotel management application in Java with features for room booking, guest management, and billing operations.",
+            "technologies": [
+              "Java",
+              "OOP",
+              "File I/O"
+            ],
+            "githubUrl": "https://github.com/utkarshagarwal03",
+            "liveUrl": ""
+          }
+        ],
+        "skills": [
+          "Java",
+          "Python",
+          "C",
+          "SQL",
+          "JDBC",
+          "MySQL",
+          "Git",
+          "GitHub",
+          "Data Structures & Algorithms",
+          "Object-Oriented Programming",
+          "Database Management Systems",
+          "Problem Solving",
+          "System Design"
+        ],
+        "certifications": [],
+        "languages": [],
+        "achievements": [
+          "Maintained CGPA of 9.26/10.0 throughout academic career.",
+          "Active problem solver on LeetCode and other competitive programming platforms.",
+          "Member of Google Developer Group On Campus."
+        ],
+        "atsScore": 100,
+        "createdAt": "2026-07-17T18:50:22.056Z",
+        "updatedAt": "2026-07-17T18:50:22.056Z"
+      }
+    },
+    {
+      "_id": "6a5a7eed2c581b80bf2743cf",
+      "createdAt": "2026-07-17T19:13:49.829Z",
+      "updatedAt": "2026-07-17T19:13:49.829Z",
+      "resume": "6a5a796eeed6adc302784854",
+      "versionNumber": 1,
+      "description": "Autosave version 1",
+      "resumeData": {
+        "_id": "6a5a796eeed6adc302784854",
+        "user": "6a5a7951eed6adc302784852",
+        "title": "New Tailored Resume",
+        "targetRole": "Software Engineer",
+        "styling": {
+          "fontFamily": "Inter",
+          "primaryColor": "#0284c7",
+          "secondaryColor": "#475569",
+          "textColor": "#334155",
+          "backgroundColor": "#ffffff",
+          "margin": "comfortable",
+          "spacing": "normal",
+          "pageSize": "A4"
+        },
+        "sectionOrder": [
+          "summary",
+          "experience",
+          "projects",
+          "skills",
+          "education",
+          "certifications",
+          "languages",
+          "achievements"
+        ],
+        "sectionVisibility": {
+          "summary": true,
+          "experience": true,
+          "education": true,
+          "projects": true,
+          "skills": true,
+          "certifications": true,
+          "languages": true,
+          "achievements": true
+        },
+        "personalInfo": {
+          "name": "utkarsh agr",
+          "email": "utk@gmail.com",
+          "phone": "8826942323",
+          "address": "Bangalore, India",
+          "portfolioUrl": "https://utkarshagarwal03.github.io/",
+          "githubUsername": "https://github.com/utkarshagarwal03",
+          "linkedinUrl": "https://www.linkedin.com/in/utkarsh-agarwal05/"
+        },
+        "summary": "I'm a Computer Science Engineering student and aspiring software engineer based in Bangalore, passionate about building scalable solutions and solving complex problems through code.",
+        "experience": [
+          {
+            "company": "Edunet Foundation (IBM & AICTE)",
+            "role": "AI & Cloud Intern",
+            "location": "Bengaluru, India",
+            "startDate": "2024-06",
+            "endDate": "2024-08",
+            "current": false,
+            "description": [
+              "Spearheaded execution of \"AI and cloud computing projects under IBM & AICTE collaboration\", boosting system operational throughput by 20% and improving delivery timelines.",
+              "Spearheaded execution of \"Gained hands-on experience with cloud platforms and AI technologies\", boosting system operational throughput by 20% and improving delivery timelines.",
+              "Spearheaded execution of \"Collaborated with team members on real-world industry projects\", boosting system operational throughput by 20% and improving delivery timelines."
+            ]
+          },
+          {
+            "company": "Google Developer Group On Campus",
+            "role": "Member",
+            "location": "Bengaluru, India",
+            "startDate": "2023-09",
+            "endDate": "Present",
+            "current": true,
+            "description": [
+              "Active member of GDG community, participating in tech events and workshops.",
+              "Collaborating with peers on open-source projects and community initiatives.",
+              "Staying updated with latest Google technologies and best practices."
+            ]
+          }
+        ],
+        "education": [
+          {
+            "school": "SJB Institute of Technology, Bengaluru",
+            "degree": "B.E.",
+            "fieldOfStudy": "Computer Science (Data Science)",
+            "startDate": "2022-08",
+            "endDate": "2026-06",
+            "cgpa": "9.26/10.0",
+            "coursework": "Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Software Engineering, Operating Systems",
+            "current": true
+          }
+        ],
+        "projects": [
+          {
+            "title": "ATM Machine System",
+            "description": "Developed a full-stack ATM simulation system using Java, SQL, and JDBC. Implemented secure transaction processing, user authentication, and database management.",
+            "technologies": [
+              "Java",
+              "SQL",
+              "JDBC",
+              "MySQL"
+            ],
+            "githubUrl": "https://github.com/utkarshagarwal03",
+            "liveUrl": ""
+          },
+          {
+            "title": "Hotel Management System",
+            "description": "Built a comprehensive hotel management application in Java with features for room booking, guest management, and billing operations.",
+            "technologies": [
+              "Java",
+              "OOP",
+              "File I/O"
+            ],
+            "githubUrl": "https://github.com/utkarshagarwal03",
+            "liveUrl": ""
+          }
+        ],
+        "skills": [
+          "Java",
+          "Python",
+          "C",
+          "SQL",
+          "JDBC",
+          "MySQL",
+          "Git",
+          "GitHub",
+          "Data Structures & Algorithms",
+          "Object-Oriented Programming",
+          "Database Management Systems",
+          "Problem Solving",
+          "System Design"
+        ],
+        "certifications": [],
+        "languages": [],
+        "achievements": [
+          "Maintained CGPA of 9.26/10.0 throughout academic career.",
+          "Active problem solver on LeetCode and other competitive programming platforms.",
+          "Member of Google Developer Group On Campus."
+        ],
+        "atsScore": 100,
+        "createdAt": "2026-07-17T18:50:22.056Z",
+        "updatedAt": "2026-07-17T18:50:22.056Z"
+      }
+    },
+    {
+      "_id": "6a5a7eef2c581b80bf2743d1",
+      "createdAt": "2026-07-17T19:13:51.042Z",
+      "updatedAt": "2026-07-17T19:13:51.042Z",
+      "resume": "6a5a796eeed6adc302784854",
+      "versionNumber": 1,
+      "description": "Autosave version 1",
+      "resumeData": {
+        "_id": "6a5a796eeed6adc302784854",
+        "user": "6a5a7951eed6adc302784852",
+        "title": "New Tailored Resume",
+        "targetRole": "Software Engineer",
+        "styling": {
+          "fontFamily": "Inter",
+          "primaryColor": "#4f46e5",
+          "secondaryColor": "#475569",
+          "textColor": "#334155",
+          "backgroundColor": "#ffffff",
+          "margin": "comfortable",
+          "spacing": "normal",
+          "pageSize": "A4"
+        },
+        "sectionOrder": [
+          "summary",
+          "experience",
+          "projects",
+          "skills",
+          "education",
+          "certifications",
+          "languages",
+          "achievements"
+        ],
+        "sectionVisibility": {
+          "summary": true,
+          "experience": true,
+          "education": true,
+          "projects": true,
+          "skills": true,
+          "certifications": true,
+          "languages": true,
+          "achievements": true
+        },
+        "personalInfo": {
+          "name": "utkarsh agr",
+          "email": "utk@gmail.com",
+          "phone": "8826942323",
+          "address": "Bangalore, India",
+          "portfolioUrl": "https://utkarshagarwal03.github.io/",
+          "githubUsername": "https://github.com/utkarshagarwal03",
+          "linkedinUrl": "https://www.linkedin.com/in/utkarsh-agarwal05/"
+        },
+        "summary": "I'm a Computer Science Engineering student and aspiring software engineer based in Bangalore, passionate about building scalable solutions and solving complex problems through code.",
+        "experience": [
+          {
+            "company": "Edunet Foundation (IBM & AICTE)",
+            "role": "AI & Cloud Intern",
+            "location": "Bengaluru, India",
+            "startDate": "2024-06",
+            "endDate": "2024-08",
+            "current": false,
+            "description": [
+              "Spearheaded execution of \"AI and cloud computing projects under IBM & AICTE collaboration\", boosting system operational throughput by 20% and improving delivery timelines.",
+              "Spearheaded execution of \"Gained hands-on experience with cloud platforms and AI technologies\", boosting system operational throughput by 20% and improving delivery timelines.",
+              "Spearheaded execution of \"Collaborated with team members on real-world industry projects\", boosting system operational throughput by 20% and improving delivery timelines."
+            ]
+          },
+          {
+            "company": "Google Developer Group On Campus",
+            "role": "Member",
+            "location": "Bengaluru, India",
+            "startDate": "2023-09",
+            "endDate": "Present",
+            "current": true,
+            "description": [
+              "Active member of GDG community, participating in tech events and workshops.",
+              "Collaborating with peers on open-source projects and community initiatives.",
+              "Staying updated with latest Google technologies and best practices."
+            ]
+          }
+        ],
+        "education": [
+          {
+            "school": "SJB Institute of Technology, Bengaluru",
+            "degree": "B.E.",
+            "fieldOfStudy": "Computer Science (Data Science)",
+            "startDate": "2022-08",
+            "endDate": "2026-06",
+            "cgpa": "9.26/10.0",
+            "coursework": "Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Software Engineering, Operating Systems",
+            "current": true
+          }
+        ],
+        "projects": [
+          {
+            "title": "ATM Machine System",
+            "description": "Developed a full-stack ATM simulation system using Java, SQL, and JDBC. Implemented secure transaction processing, user authentication, and database management.",
+            "technologies": [
+              "Java",
+              "SQL",
+              "JDBC",
+              "MySQL"
+            ],
+            "githubUrl": "https://github.com/utkarshagarwal03",
+            "liveUrl": ""
+          },
+          {
+            "title": "Hotel Management System",
+            "description": "Built a comprehensive hotel management application in Java with features for room booking, guest management, and billing operations.",
+            "technologies": [
+              "Java",
+              "OOP",
+              "File I/O"
+            ],
+            "githubUrl": "https://github.com/utkarshagarwal03",
+            "liveUrl": ""
+          }
+        ],
+        "skills": [
+          "Java",
+          "Python",
+          "C",
+          "SQL",
+          "JDBC",
+          "MySQL",
+          "Git",
+          "GitHub",
+          "Data Structures & Algorithms",
+          "Object-Oriented Programming",
+          "Database Management Systems",
+          "Problem Solving",
+          "System Design"
+        ],
+        "certifications": [],
+        "languages": [],
+        "achievements": [
+          "Maintained CGPA of 9.26/10.0 throughout academic career.",
+          "Active problem solver on LeetCode and other competitive programming platforms.",
+          "Member of Google Developer Group On Campus."
+        ],
+        "atsScore": 100,
+        "createdAt": "2026-07-17T18:50:22.056Z",
+        "updatedAt": "2026-07-17T18:50:22.056Z"
+      }
+    },
+    {
+      "_id": "6a5a7ef02c581b80bf2743d3",
+      "createdAt": "2026-07-17T19:13:52.979Z",
+      "updatedAt": "2026-07-17T19:13:52.979Z",
+      "resume": "6a5a796eeed6adc302784854",
+      "versionNumber": 1,
+      "description": "Autosave version 1",
+      "resumeData": {
+        "_id": "6a5a796eeed6adc302784854",
+        "user": "6a5a7951eed6adc302784852",
+        "title": "New Tailored Resume",
+        "targetRole": "Software Engineer",
+        "styling": {
+          "fontFamily": "Inter",
+          "primaryColor": "#0f172a",
+          "secondaryColor": "#475569",
+          "textColor": "#334155",
+          "backgroundColor": "#ffffff",
+          "margin": "comfortable",
+          "spacing": "normal",
+          "pageSize": "A4"
+        },
+        "sectionOrder": [
+          "summary",
+          "experience",
+          "projects",
+          "skills",
+          "education",
+          "certifications",
+          "languages",
+          "achievements"
+        ],
+        "sectionVisibility": {
+          "summary": true,
+          "experience": true,
+          "education": true,
+          "projects": true,
+          "skills": true,
+          "certifications": true,
+          "languages": true,
+          "achievements": true
+        },
+        "personalInfo": {
+          "name": "utkarsh agr",
+          "email": "utk@gmail.com",
+          "phone": "8826942323",
+          "address": "Bangalore, India",
+          "portfolioUrl": "https://utkarshagarwal03.github.io/",
+          "githubUsername": "https://github.com/utkarshagarwal03",
+          "linkedinUrl": "https://www.linkedin.com/in/utkarsh-agarwal05/"
+        },
+        "summary": "I'm a Computer Science Engineering student and aspiring software engineer based in Bangalore, passionate about building scalable solutions and solving complex problems through code.",
+        "experience": [
+          {
+            "company": "Edunet Foundation (IBM & AICTE)",
+            "role": "AI & Cloud Intern",
+            "location": "Bengaluru, India",
+            "startDate": "2024-06",
+            "endDate": "2024-08",
+            "current": false,
+            "description": [
+              "Spearheaded execution of \"AI and cloud computing projects under IBM & AICTE collaboration\", boosting system operational throughput by 20% and improving delivery timelines.",
+              "Spearheaded execution of \"Gained hands-on experience with cloud platforms and AI technologies\", boosting system operational throughput by 20% and improving delivery timelines.",
+              "Spearheaded execution of \"Collaborated with team members on real-world industry projects\", boosting system operational throughput by 20% and improving delivery timelines."
+            ]
+          },
+          {
+            "company": "Google Developer Group On Campus",
+            "role": "Member",
+            "location": "Bengaluru, India",
+            "startDate": "2023-09",
+            "endDate": "Present",
+            "current": true,
+            "description": [
+              "Active member of GDG community, participating in tech events and workshops.",
+              "Collaborating with peers on open-source projects and community initiatives.",
+              "Staying updated with latest Google technologies and best practices."
+            ]
+          }
+        ],
+        "education": [
+          {
+            "school": "SJB Institute of Technology, Bengaluru",
+            "degree": "B.E.",
+            "fieldOfStudy": "Computer Science (Data Science)",
+            "startDate": "2022-08",
+            "endDate": "2026-06",
+            "cgpa": "9.26/10.0",
+            "coursework": "Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Software Engineering, Operating Systems",
+            "current": true
+          }
+        ],
+        "projects": [
+          {
+            "title": "ATM Machine System",
+            "description": "Developed a full-stack ATM simulation system using Java, SQL, and JDBC. Implemented secure transaction processing, user authentication, and database management.",
+            "technologies": [
+              "Java",
+              "SQL",
+              "JDBC",
+              "MySQL"
+            ],
+            "githubUrl": "https://github.com/utkarshagarwal03",
+            "liveUrl": ""
+          },
+          {
+            "title": "Hotel Management System",
+            "description": "Built a comprehensive hotel management application in Java with features for room booking, guest management, and billing operations.",
+            "technologies": [
+              "Java",
+              "OOP",
+              "File I/O"
+            ],
+            "githubUrl": "https://github.com/utkarshagarwal03",
+            "liveUrl": ""
+          }
+        ],
+        "skills": [
+          "Java",
+          "Python",
+          "C",
+          "SQL",
+          "JDBC",
+          "MySQL",
+          "Git",
+          "GitHub",
+          "Data Structures & Algorithms",
+          "Object-Oriented Programming",
+          "Database Management Systems",
+          "Problem Solving",
+          "System Design"
+        ],
+        "certifications": [],
+        "languages": [],
+        "achievements": [
+          "Maintained CGPA of 9.26/10.0 throughout academic career.",
+          "Active problem solver on LeetCode and other competitive programming platforms.",
+          "Member of Google Developer Group On Campus."
+        ],
+        "atsScore": 100,
+        "createdAt": "2026-07-17T18:50:22.056Z",
+        "updatedAt": "2026-07-17T18:50:22.056Z"
+      }
+    }
+  ],
+  "coverletters": [],
+  "jobdescriptions": [],
+  "atsreports": [
+    {
+      "_id": "6a5a7dc12c581b80bf2743c6",
+      "createdAt": "2026-07-17T19:08:49.842Z",
+      "updatedAt": "2026-07-17T19:08:49.842Z",
+      "user": "6a5a7951eed6adc302784852",
+      "resume": "6a5a796eeed6adc302784854",
+      "overallScore": 76,
+      "sectionScores": {
+        "formatting": 85,
+        "keywords": 52,
+        "readability": 75,
+        "experience": 70,
+        "projects": 75,
+        "skills": 80,
+        "education": 80,
+        "grammar": 90
+      },
+      "missingKeywords": [
+        "CI/CD Pipelines",
+        "REST APIs",
+        "Unit Testing",
+        "Relational Databases"
+      ],
+      "weakBulletPoints": [
+        {
+          "section": "Experience",
+          "original": "Worked on AI and cloud computing projects under IBM & AICTE collaboration.",
+          "suggestion": "Begin bullet points with dynamic action verbs (e.g., Spearheaded, Optimized, Refactored) instead of passive descriptions."
+        },
+        {
+          "section": "Experience",
+          "original": "Worked on AI and cloud computing projects under IBM & AICTE collaboration.",
+          "suggestion": "Quantify your contribution impact by adding specific metrics (e.g., performance gains %, latency reduced ms)."
+        },
+        {
+          "section": "Experience",
+          "original": "Gained hands-on experience with cloud platforms and AI technologies.",
+          "suggestion": "Begin bullet points with dynamic action verbs (e.g., Spearheaded, Optimized, Refactored) instead of passive descriptions."
+        },
+        {
+          "section": "Experience",
+          "original": "Gained hands-on experience with cloud platforms and AI technologies.",
+          "suggestion": "Quantify your contribution impact by adding specific metrics (e.g., performance gains %, latency reduced ms)."
+        },
+        {
+          "section": "Experience",
+          "original": "Collaborated with team members on real-world industry projects.",
+          "suggestion": "Begin bullet points with dynamic action verbs (e.g., Spearheaded, Optimized, Refactored) instead of passive descriptions."
+        },
+        {
+          "section": "Experience",
+          "original": "Collaborated with team members on real-world industry projects.",
+          "suggestion": "Quantify your contribution impact by adding specific metrics (e.g., performance gains %, latency reduced ms)."
+        },
+        {
+          "section": "Experience",
+          "original": "Active member of GDG community, participating in tech events and workshops.",
+          "suggestion": "Begin bullet points with dynamic action verbs (e.g., Spearheaded, Optimized, Refactored) instead of passive descriptions."
+        },
+        {
+          "section": "Experience",
+          "original": "Active member of GDG community, participating in tech events and workshops.",
+          "suggestion": "Quantify your contribution impact by adding specific metrics (e.g., performance gains %, latency reduced ms)."
+        },
+        {
+          "section": "Experience",
+          "original": "Collaborating with peers on open-source projects and community initiatives.",
+          "suggestion": "Begin bullet points with dynamic action verbs (e.g., Spearheaded, Optimized, Refactored) instead of passive descriptions."
+        },
+        {
+          "section": "Experience",
+          "original": "Collaborating with peers on open-source projects and community initiatives.",
+          "suggestion": "Quantify your contribution impact by adding specific metrics (e.g., performance gains %, latency reduced ms)."
+        },
+        {
+          "section": "Experience",
+          "original": "Staying updated with latest Google technologies and best practices.",
+          "suggestion": "Begin bullet points with dynamic action verbs (e.g., Spearheaded, Optimized, Refactored) instead of passive descriptions."
+        },
+        {
+          "section": "Experience",
+          "original": "Staying updated with latest Google technologies and best practices.",
+          "suggestion": "Quantify your contribution impact by adding specific metrics (e.g., performance gains %, latency reduced ms)."
+        }
+      ],
+      "formattingIssues": [],
+      "duplicateSkills": []
+    },
+    {
+      "_id": "6a5a7dc12c581b80bf2743c7",
+      "createdAt": "2026-07-17T19:08:49.863Z",
+      "updatedAt": "2026-07-17T19:08:49.863Z",
+      "user": "6a5a7951eed6adc302784852",
+      "resume": "6a5a796eeed6adc302784854",
+      "overallScore": 76,
+      "sectionScores": {
+        "formatting": 85,
+        "keywords": 52,
+        "readability": 75,
+        "experience": 70,
+        "projects": 75,
+        "skills": 80,
+        "education": 80,
+        "grammar": 90
+      },
+      "missingKeywords": [
+        "CI/CD Pipelines",
+        "REST APIs",
+        "Unit Testing",
+        "Relational Databases"
+      ],
+      "weakBulletPoints": [
+        {
+          "section": "Experience",
+          "original": "Worked on AI and cloud computing projects under IBM & AICTE collaboration.",
+          "suggestion": "Begin bullet points with dynamic action verbs (e.g., Spearheaded, Optimized, Refactored) instead of passive descriptions."
+        },
+        {
+          "section": "Experience",
+          "original": "Worked on AI and cloud computing projects under IBM & AICTE collaboration.",
+          "suggestion": "Quantify your contribution impact by adding specific metrics (e.g., performance gains %, latency reduced ms)."
+        },
+        {
+          "section": "Experience",
+          "original": "Gained hands-on experience with cloud platforms and AI technologies.",
+          "suggestion": "Begin bullet points with dynamic action verbs (e.g., Spearheaded, Optimized, Refactored) instead of passive descriptions."
+        },
+        {
+          "section": "Experience",
+          "original": "Gained hands-on experience with cloud platforms and AI technologies.",
+          "suggestion": "Quantify your contribution impact by adding specific metrics (e.g., performance gains %, latency reduced ms)."
+        },
+        {
+          "section": "Experience",
+          "original": "Collaborated with team members on real-world industry projects.",
+          "suggestion": "Begin bullet points with dynamic action verbs (e.g., Spearheaded, Optimized, Refactored) instead of passive descriptions."
+        },
+        {
+          "section": "Experience",
+          "original": "Collaborated with team members on real-world industry projects.",
+          "suggestion": "Quantify your contribution impact by adding specific metrics (e.g., performance gains %, latency reduced ms)."
+        },
+        {
+          "section": "Experience",
+          "original": "Active member of GDG community, participating in tech events and workshops.",
+          "suggestion": "Begin bullet points with dynamic action verbs (e.g., Spearheaded, Optimized, Refactored) instead of passive descriptions."
+        },
+        {
+          "section": "Experience",
+          "original": "Active member of GDG community, participating in tech events and workshops.",
+          "suggestion": "Quantify your contribution impact by adding specific metrics (e.g., performance gains %, latency reduced ms)."
+        },
+        {
+          "section": "Experience",
+          "original": "Collaborating with peers on open-source projects and community initiatives.",
+          "suggestion": "Begin bullet points with dynamic action verbs (e.g., Spearheaded, Optimized, Refactored) instead of passive descriptions."
+        },
+        {
+          "section": "Experience",
+          "original": "Collaborating with peers on open-source projects and community initiatives.",
+          "suggestion": "Quantify your contribution impact by adding specific metrics (e.g., performance gains %, latency reduced ms)."
+        },
+        {
+          "section": "Experience",
+          "original": "Staying updated with latest Google technologies and best practices.",
+          "suggestion": "Begin bullet points with dynamic action verbs (e.g., Spearheaded, Optimized, Refactored) instead of passive descriptions."
+        },
+        {
+          "section": "Experience",
+          "original": "Staying updated with latest Google technologies and best practices.",
+          "suggestion": "Quantify your contribution impact by adding specific metrics (e.g., performance gains %, latency reduced ms)."
+        }
+      ],
+      "formattingIssues": [],
+      "duplicateSkills": []
+    },
+    {
+      "_id": "6a5a7dc12c581b80bf2743c8",
+      "createdAt": "2026-07-17T19:08:49.876Z",
+      "updatedAt": "2026-07-17T19:08:49.876Z",
+      "user": "6a5a7951eed6adc302784852",
+      "resume": "6a5a796eeed6adc302784854",
+      "overallScore": 76,
+      "sectionScores": {
+        "formatting": 85,
+        "keywords": 52,
+        "readability": 75,
+        "experience": 70,
+        "projects": 75,
+        "skills": 80,
+        "education": 80,
+        "grammar": 90
+      },
+      "missingKeywords": [
+        "CI/CD Pipelines",
+        "REST APIs",
+        "Unit Testing",
+        "Relational Databases"
+      ],
+      "weakBulletPoints": [
+        {
+          "section": "Experience",
+          "original": "Worked on AI and cloud computing projects under IBM & AICTE collaboration.",
+          "suggestion": "Begin bullet points with dynamic action verbs (e.g., Spearheaded, Optimized, Refactored) instead of passive descriptions."
+        },
+        {
+          "section": "Experience",
+          "original": "Worked on AI and cloud computing projects under IBM & AICTE collaboration.",
+          "suggestion": "Quantify your contribution impact by adding specific metrics (e.g., performance gains %, latency reduced ms)."
+        },
+        {
+          "section": "Experience",
+          "original": "Gained hands-on experience with cloud platforms and AI technologies.",
+          "suggestion": "Begin bullet points with dynamic action verbs (e.g., Spearheaded, Optimized, Refactored) instead of passive descriptions."
+        },
+        {
+          "section": "Experience",
+          "original": "Gained hands-on experience with cloud platforms and AI technologies.",
+          "suggestion": "Quantify your contribution impact by adding specific metrics (e.g., performance gains %, latency reduced ms)."
+        },
+        {
+          "section": "Experience",
+          "original": "Collaborated with team members on real-world industry projects.",
+          "suggestion": "Begin bullet points with dynamic action verbs (e.g., Spearheaded, Optimized, Refactored) instead of passive descriptions."
+        },
+        {
+          "section": "Experience",
+          "original": "Collaborated with team members on real-world industry projects.",
+          "suggestion": "Quantify your contribution impact by adding specific metrics (e.g., performance gains %, latency reduced ms)."
+        },
+        {
+          "section": "Experience",
+          "original": "Active member of GDG community, participating in tech events and workshops.",
+          "suggestion": "Begin bullet points with dynamic action verbs (e.g., Spearheaded, Optimized, Refactored) instead of passive descriptions."
+        },
+        {
+          "section": "Experience",
+          "original": "Active member of GDG community, participating in tech events and workshops.",
+          "suggestion": "Quantify your contribution impact by adding specific metrics (e.g., performance gains %, latency reduced ms)."
+        },
+        {
+          "section": "Experience",
+          "original": "Collaborating with peers on open-source projects and community initiatives.",
+          "suggestion": "Begin bullet points with dynamic action verbs (e.g., Spearheaded, Optimized, Refactored) instead of passive descriptions."
+        },
+        {
+          "section": "Experience",
+          "original": "Collaborating with peers on open-source projects and community initiatives.",
+          "suggestion": "Quantify your contribution impact by adding specific metrics (e.g., performance gains %, latency reduced ms)."
+        },
+        {
+          "section": "Experience",
+          "original": "Staying updated with latest Google technologies and best practices.",
+          "suggestion": "Begin bullet points with dynamic action verbs (e.g., Spearheaded, Optimized, Refactored) instead of passive descriptions."
+        },
+        {
+          "section": "Experience",
+          "original": "Staying updated with latest Google technologies and best practices.",
+          "suggestion": "Quantify your contribution impact by adding specific metrics (e.g., performance gains %, latency reduced ms)."
+        }
+      ],
+      "formattingIssues": [],
+      "duplicateSkills": []
+    },
+    {
+      "_id": "6a5a7dc12c581b80bf2743c9",
+      "createdAt": "2026-07-17T19:08:49.887Z",
+      "updatedAt": "2026-07-17T19:08:49.887Z",
+      "user": "6a5a7951eed6adc302784852",
+      "resume": "6a5a796eeed6adc302784854",
+      "overallScore": 76,
+      "sectionScores": {
+        "formatting": 85,
+        "keywords": 52,
+        "readability": 75,
+        "experience": 70,
+        "projects": 75,
+        "skills": 80,
+        "education": 80,
+        "grammar": 90
+      },
+      "missingKeywords": [
+        "CI/CD Pipelines",
+        "REST APIs",
+        "Unit Testing",
+        "Relational Databases"
+      ],
+      "weakBulletPoints": [
+        {
+          "section": "Experience",
+          "original": "Worked on AI and cloud computing projects under IBM & AICTE collaboration.",
+          "suggestion": "Begin bullet points with dynamic action verbs (e.g., Spearheaded, Optimized, Refactored) instead of passive descriptions."
+        },
+        {
+          "section": "Experience",
+          "original": "Worked on AI and cloud computing projects under IBM & AICTE collaboration.",
+          "suggestion": "Quantify your contribution impact by adding specific metrics (e.g., performance gains %, latency reduced ms)."
+        },
+        {
+          "section": "Experience",
+          "original": "Gained hands-on experience with cloud platforms and AI technologies.",
+          "suggestion": "Begin bullet points with dynamic action verbs (e.g., Spearheaded, Optimized, Refactored) instead of passive descriptions."
+        },
+        {
+          "section": "Experience",
+          "original": "Gained hands-on experience with cloud platforms and AI technologies.",
+          "suggestion": "Quantify your contribution impact by adding specific metrics (e.g., performance gains %, latency reduced ms)."
+        },
+        {
+          "section": "Experience",
+          "original": "Collaborated with team members on real-world industry projects.",
+          "suggestion": "Begin bullet points with dynamic action verbs (e.g., Spearheaded, Optimized, Refactored) instead of passive descriptions."
+        },
+        {
+          "section": "Experience",
+          "original": "Collaborated with team members on real-world industry projects.",
+          "suggestion": "Quantify your contribution impact by adding specific metrics (e.g., performance gains %, latency reduced ms)."
+        },
+        {
+          "section": "Experience",
+          "original": "Active member of GDG community, participating in tech events and workshops.",
+          "suggestion": "Begin bullet points with dynamic action verbs (e.g., Spearheaded, Optimized, Refactored) instead of passive descriptions."
+        },
+        {
+          "section": "Experience",
+          "original": "Active member of GDG community, participating in tech events and workshops.",
+          "suggestion": "Quantify your contribution impact by adding specific metrics (e.g., performance gains %, latency reduced ms)."
+        },
+        {
+          "section": "Experience",
+          "original": "Collaborating with peers on open-source projects and community initiatives.",
+          "suggestion": "Begin bullet points with dynamic action verbs (e.g., Spearheaded, Optimized, Refactored) instead of passive descriptions."
+        },
+        {
+          "section": "Experience",
+          "original": "Collaborating with peers on open-source projects and community initiatives.",
+          "suggestion": "Quantify your contribution impact by adding specific metrics (e.g., performance gains %, latency reduced ms)."
+        },
+        {
+          "section": "Experience",
+          "original": "Staying updated with latest Google technologies and best practices.",
+          "suggestion": "Begin bullet points with dynamic action verbs (e.g., Spearheaded, Optimized, Refactored) instead of passive descriptions."
+        },
+        {
+          "section": "Experience",
+          "original": "Staying updated with latest Google technologies and best practices.",
+          "suggestion": "Quantify your contribution impact by adding specific metrics (e.g., performance gains %, latency reduced ms)."
+        }
+      ],
+      "formattingIssues": [],
+      "duplicateSkills": []
+    },
+    {
+      "_id": "6a5a7e062c581b80bf2743cb",
+      "createdAt": "2026-07-17T19:09:58.708Z",
+      "updatedAt": "2026-07-17T19:09:58.708Z",
+      "user": "6a5a7951eed6adc302784852",
+      "resume": "6a5a796eeed6adc302784854",
+      "overallScore": 76,
+      "sectionScores": {
+        "formatting": 85,
+        "keywords": 52,
+        "readability": 75,
+        "experience": 70,
+        "projects": 75,
+        "skills": 80,
+        "education": 80,
+        "grammar": 90
+      },
+      "missingKeywords": [
+        "CI/CD Pipelines",
+        "REST APIs",
+        "Unit Testing",
+        "Relational Databases"
+      ],
+      "weakBulletPoints": [
+        {
+          "section": "Experience",
+          "original": "Spearheaded execution of \"AI and cloud computing projects under IBM & AICTE collaboration\", boosting system operational throughput by 20% and improving delivery timelines.",
+          "suggestion": "Quantify your contribution impact by adding specific metrics (e.g., performance gains %, latency reduced ms)."
+        },
+        {
+          "section": "Experience",
+          "original": "Spearheaded execution of \"Gained hands-on experience with cloud platforms and AI technologies\", boosting system operational throughput by 20% and improving delivery timelines.",
+          "suggestion": "Quantify your contribution impact by adding specific metrics (e.g., performance gains %, latency reduced ms)."
+        },
+        {
+          "section": "Experience",
+          "original": "Spearheaded execution of \"Collaborated with team members on real-world industry projects\", boosting system operational throughput by 20% and improving delivery timelines.",
+          "suggestion": "Quantify your contribution impact by adding specific metrics (e.g., performance gains %, latency reduced ms)."
+        },
+        {
+          "section": "Experience",
+          "original": "Active member of GDG community, participating in tech events and workshops.",
+          "suggestion": "Begin bullet points with dynamic action verbs (e.g., Spearheaded, Optimized, Refactored) instead of passive descriptions."
+        },
+        {
+          "section": "Experience",
+          "original": "Active member of GDG community, participating in tech events and workshops.",
+          "suggestion": "Quantify your contribution impact by adding specific metrics (e.g., performance gains %, latency reduced ms)."
+        },
+        {
+          "section": "Experience",
+          "original": "Collaborating with peers on open-source projects and community initiatives.",
+          "suggestion": "Begin bullet points with dynamic action verbs (e.g., Spearheaded, Optimized, Refactored) instead of passive descriptions."
+        },
+        {
+          "section": "Experience",
+          "original": "Collaborating with peers on open-source projects and community initiatives.",
+          "suggestion": "Quantify your contribution impact by adding specific metrics (e.g., performance gains %, latency reduced ms)."
+        },
+        {
+          "section": "Experience",
+          "original": "Staying updated with latest Google technologies and best practices.",
+          "suggestion": "Begin bullet points with dynamic action verbs (e.g., Spearheaded, Optimized, Refactored) instead of passive descriptions."
+        },
+        {
+          "section": "Experience",
+          "original": "Staying updated with latest Google technologies and best practices.",
+          "suggestion": "Quantify your contribution impact by adding specific metrics (e.g., performance gains %, latency reduced ms)."
+        }
+      ],
+      "formattingIssues": [],
+      "duplicateSkills": []
+    },
+    {
+      "_id": "6a5a7e232c581b80bf2743cc",
+      "createdAt": "2026-07-17T19:10:27.421Z",
+      "updatedAt": "2026-07-17T19:10:27.421Z",
+      "user": "6a5a7951eed6adc302784852",
+      "resume": "6a5a796eeed6adc302784854",
+      "overallScore": 76,
+      "sectionScores": {
+        "formatting": 85,
+        "keywords": 52,
+        "readability": 75,
+        "experience": 70,
+        "projects": 75,
+        "skills": 80,
+        "education": 80,
+        "grammar": 90
+      },
+      "missingKeywords": [
+        "CI/CD Pipelines",
+        "REST APIs",
+        "Unit Testing",
+        "Relational Databases"
+      ],
+      "weakBulletPoints": [
+        {
+          "section": "Experience",
+          "original": "Spearheaded execution of \"AI and cloud computing projects under IBM & AICTE collaboration\", boosting system operational throughput by 20% and improving delivery timelines.",
+          "suggestion": "Quantify your contribution impact by adding specific metrics (e.g., performance gains %, latency reduced ms)."
+        },
+        {
+          "section": "Experience",
+          "original": "Spearheaded execution of \"Gained hands-on experience with cloud platforms and AI technologies\", boosting system operational throughput by 20% and improving delivery timelines.",
+          "suggestion": "Quantify your contribution impact by adding specific metrics (e.g., performance gains %, latency reduced ms)."
+        },
+        {
+          "section": "Experience",
+          "original": "Spearheaded execution of \"Collaborated with team members on real-world industry projects\", boosting system operational throughput by 20% and improving delivery timelines.",
+          "suggestion": "Quantify your contribution impact by adding specific metrics (e.g., performance gains %, latency reduced ms)."
+        },
+        {
+          "section": "Experience",
+          "original": "Active member of GDG community, participating in tech events and workshops.",
+          "suggestion": "Begin bullet points with dynamic action verbs (e.g., Spearheaded, Optimized, Refactored) instead of passive descriptions."
+        },
+        {
+          "section": "Experience",
+          "original": "Active member of GDG community, participating in tech events and workshops.",
+          "suggestion": "Quantify your contribution impact by adding specific metrics (e.g., performance gains %, latency reduced ms)."
+        },
+        {
+          "section": "Experience",
+          "original": "Collaborating with peers on open-source projects and community initiatives.",
+          "suggestion": "Begin bullet points with dynamic action verbs (e.g., Spearheaded, Optimized, Refactored) instead of passive descriptions."
+        },
+        {
+          "section": "Experience",
+          "original": "Collaborating with peers on open-source projects and community initiatives.",
+          "suggestion": "Quantify your contribution impact by adding specific metrics (e.g., performance gains %, latency reduced ms)."
+        },
+        {
+          "section": "Experience",
+          "original": "Staying updated with latest Google technologies and best practices.",
+          "suggestion": "Begin bullet points with dynamic action verbs (e.g., Spearheaded, Optimized, Refactored) instead of passive descriptions."
+        },
+        {
+          "section": "Experience",
+          "original": "Staying updated with latest Google technologies and best practices.",
+          "suggestion": "Quantify your contribution impact by adding specific metrics (e.g., performance gains %, latency reduced ms)."
+        }
+      ],
+      "formattingIssues": [],
+      "duplicateSkills": []
+    },
+    {
+      "_id": "6a5a7e232c581b80bf2743cd",
+      "createdAt": "2026-07-17T19:10:27.431Z",
+      "updatedAt": "2026-07-17T19:10:27.431Z",
+      "user": "6a5a7951eed6adc302784852",
+      "resume": "6a5a796eeed6adc302784854",
+      "overallScore": 76,
+      "sectionScores": {
+        "formatting": 85,
+        "keywords": 52,
+        "readability": 75,
+        "experience": 70,
+        "projects": 75,
+        "skills": 80,
+        "education": 80,
+        "grammar": 90
+      },
+      "missingKeywords": [
+        "CI/CD Pipelines",
+        "REST APIs",
+        "Unit Testing",
+        "Relational Databases"
+      ],
+      "weakBulletPoints": [
+        {
+          "section": "Experience",
+          "original": "Spearheaded execution of \"AI and cloud computing projects under IBM & AICTE collaboration\", boosting system operational throughput by 20% and improving delivery timelines.",
+          "suggestion": "Quantify your contribution impact by adding specific metrics (e.g., performance gains %, latency reduced ms)."
+        },
+        {
+          "section": "Experience",
+          "original": "Spearheaded execution of \"Gained hands-on experience with cloud platforms and AI technologies\", boosting system operational throughput by 20% and improving delivery timelines.",
+          "suggestion": "Quantify your contribution impact by adding specific metrics (e.g., performance gains %, latency reduced ms)."
+        },
+        {
+          "section": "Experience",
+          "original": "Spearheaded execution of \"Collaborated with team members on real-world industry projects\", boosting system operational throughput by 20% and improving delivery timelines.",
+          "suggestion": "Quantify your contribution impact by adding specific metrics (e.g., performance gains %, latency reduced ms)."
+        },
+        {
+          "section": "Experience",
+          "original": "Active member of GDG community, participating in tech events and workshops.",
+          "suggestion": "Begin bullet points with dynamic action verbs (e.g., Spearheaded, Optimized, Refactored) instead of passive descriptions."
+        },
+        {
+          "section": "Experience",
+          "original": "Active member of GDG community, participating in tech events and workshops.",
+          "suggestion": "Quantify your contribution impact by adding specific metrics (e.g., performance gains %, latency reduced ms)."
+        },
+        {
+          "section": "Experience",
+          "original": "Collaborating with peers on open-source projects and community initiatives.",
+          "suggestion": "Begin bullet points with dynamic action verbs (e.g., Spearheaded, Optimized, Refactored) instead of passive descriptions."
+        },
+        {
+          "section": "Experience",
+          "original": "Collaborating with peers on open-source projects and community initiatives.",
+          "suggestion": "Quantify your contribution impact by adding specific metrics (e.g., performance gains %, latency reduced ms)."
+        },
+        {
+          "section": "Experience",
+          "original": "Staying updated with latest Google technologies and best practices.",
+          "suggestion": "Begin bullet points with dynamic action verbs (e.g., Spearheaded, Optimized, Refactored) instead of passive descriptions."
+        },
+        {
+          "section": "Experience",
+          "original": "Staying updated with latest Google technologies and best practices.",
+          "suggestion": "Quantify your contribution impact by adding specific metrics (e.g., performance gains %, latency reduced ms)."
+        }
+      ],
+      "formattingIssues": [],
+      "duplicateSkills": []
+    },
+    {
+      "_id": "6a5a7e542c581b80bf2743ce",
+      "createdAt": "2026-07-17T19:11:16.835Z",
+      "updatedAt": "2026-07-17T19:11:16.835Z",
+      "user": "6a5a7951eed6adc302784852",
+      "resume": "6a5a796eeed6adc302784854",
+      "overallScore": 78,
+      "sectionScores": {
+        "formatting": 85,
+        "keywords": 70,
+        "readability": 80,
+        "experience": 75,
+        "projects": 80,
+        "skills": 85,
+        "education": 90,
+        "grammar": 95
+      },
+      "missingKeywords": [
+        "Redux State Management",
+        "GraphQL",
+        "AWS Lambdas",
+        "Integration Testing"
+      ],
+      "weakBulletPoints": [
+        {
+          "section": "General",
+          "original": "Responsible for writing front-end code.",
+          "suggestion": "Developed responsive frontend components using React and Redux, improving user conversion rates by 15%."
+        },
+        {
+          "section": "General",
+          "original": "Helped in fixing database bugs.",
+          "suggestion": "Resolved database performance issues, reducing query latency by 40% using MongoDB indexing."
+        }
+      ],
+      "formattingIssues": [
+        "Ensure dates are aligned consistently on the right margin.",
+        "Include a dedicated section for technical achievements."
+      ],
+      "duplicateSkills": []
+    },
+    {
+      "_id": "6a5a7eee2c581b80bf2743d0",
+      "createdAt": "2026-07-17T19:13:50.461Z",
+      "updatedAt": "2026-07-17T19:13:50.461Z",
+      "user": "6a5a7951eed6adc302784852",
+      "resume": "6a5a796eeed6adc302784854",
+      "overallScore": 78,
+      "sectionScores": {
+        "formatting": 85,
+        "keywords": 70,
+        "readability": 80,
+        "experience": 75,
+        "projects": 80,
+        "skills": 85,
+        "education": 90,
+        "grammar": 95
+      },
+      "missingKeywords": [
+        "Redux State Management",
+        "GraphQL",
+        "AWS Lambdas",
+        "Integration Testing"
+      ],
+      "weakBulletPoints": [
+        {
+          "section": "General",
+          "original": "Responsible for writing front-end code.",
+          "suggestion": "Developed responsive frontend components using React and Redux, improving user conversion rates by 15%."
+        },
+        {
+          "section": "General",
+          "original": "Helped in fixing database bugs.",
+          "suggestion": "Resolved database performance issues, reducing query latency by 40% using MongoDB indexing."
+        }
+      ],
+      "formattingIssues": [
+        "Ensure dates are aligned consistently on the right margin.",
+        "Include a dedicated section for technical achievements."
+      ],
+      "duplicateSkills": []
+    },
+    {
+      "_id": "6a5a7eef2c581b80bf2743d2",
+      "createdAt": "2026-07-17T19:13:51.673Z",
+      "updatedAt": "2026-07-17T19:13:51.673Z",
+      "user": "6a5a7951eed6adc302784852",
+      "resume": "6a5a796eeed6adc302784854",
+      "overallScore": 78,
+      "sectionScores": {
+        "formatting": 85,
+        "keywords": 70,
+        "readability": 80,
+        "experience": 75,
+        "projects": 80,
+        "skills": 85,
+        "education": 90,
+        "grammar": 95
+      },
+      "missingKeywords": [
+        "Redux State Management",
+        "GraphQL",
+        "AWS Lambdas",
+        "Integration Testing"
+      ],
+      "weakBulletPoints": [
+        {
+          "section": "General",
+          "original": "Responsible for writing front-end code.",
+          "suggestion": "Developed responsive frontend components using React and Redux, improving user conversion rates by 15%."
+        },
+        {
+          "section": "General",
+          "original": "Helped in fixing database bugs.",
+          "suggestion": "Resolved database performance issues, reducing query latency by 40% using MongoDB indexing."
+        }
+      ],
+      "formattingIssues": [
+        "Ensure dates are aligned consistently on the right margin.",
+        "Include a dedicated section for technical achievements."
+      ],
+      "duplicateSkills": []
+    },
+    {
+      "_id": "6a5a7ef12c581b80bf2743d4",
+      "createdAt": "2026-07-17T19:13:53.608Z",
+      "updatedAt": "2026-07-17T19:13:53.608Z",
+      "user": "6a5a7951eed6adc302784852",
+      "resume": "6a5a796eeed6adc302784854",
+      "overallScore": 78,
+      "sectionScores": {
+        "formatting": 85,
+        "keywords": 70,
+        "readability": 80,
+        "experience": 75,
+        "projects": 80,
+        "skills": 85,
+        "education": 90,
+        "grammar": 95
+      },
+      "missingKeywords": [
+        "Redux State Management",
+        "GraphQL",
+        "AWS Lambdas",
+        "Integration Testing"
+      ],
+      "weakBulletPoints": [
+        {
+          "section": "General",
+          "original": "Responsible for writing front-end code.",
+          "suggestion": "Developed responsive frontend components using React and Redux, improving user conversion rates by 15%."
+        },
+        {
+          "section": "General",
+          "original": "Helped in fixing database bugs.",
+          "suggestion": "Resolved database performance issues, reducing query latency by 40% using MongoDB indexing."
+        }
+      ],
+      "formattingIssues": [
+        "Ensure dates are aligned consistently on the right margin.",
+        "Include a dedicated section for technical achievements."
+      ],
+      "duplicateSkills": []
+    }
+  ],
+  "notifications": []
+}

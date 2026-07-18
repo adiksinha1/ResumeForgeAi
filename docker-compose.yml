@@ -1,0 +1,47 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: resumeforge-mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    networks:
+      - resumeforge-network
+
+  redis:
+    image: redis:alpine
+    container_name: resumeforge-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - resumeforge-network
+
+  backend:
+    build: ./backend
+    container_name: resumeforge-backend
+    ports:
+      - "5000:5000"
+    environment:
+      - PORT=5000
+      - MONGO_URI=mongodb://mongodb:27017/resumeforge
+      - REDIS_URL=redis://redis:6379
+      - JWT_SECRET=resumeforge_jwt_secret_key_12345
+      - NODE_ENV=development
+    depends_on:
+      - mongodb
+      - redis
+    networks:
+      - resumeforge-network
+
+volumes:
+  mongo_data:
+  redis_data:
+
+networks:
+  resumeforge-network:
+    driver: bridge
