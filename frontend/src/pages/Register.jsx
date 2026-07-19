@@ -60,7 +60,10 @@ export default function Register() {
                 type="text"
                 placeholder="John Doe"
                 className="w-full pl-10 pr-4 py-2 rounded-lg bg-slate-950 border border-white/10 focus:border-teal-500 text-sm focus:outline-none transition-colors"
-                {...register('name', { required: 'Name is required' })}
+                {...register('name', { 
+                  required: 'Name is required',
+                  minLength: { value: 2, message: 'Name must be at least 2 characters' }
+                })}
               />
             </div>
             {errors.name && <span className="text-[10px] text-red-400 mt-1">{errors.name.message}</span>}

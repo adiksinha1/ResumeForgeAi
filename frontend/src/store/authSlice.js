@@ -52,7 +52,10 @@ export const registerUser = (data) => async (dispatch) => {
     dispatch(authSuccess({ user: res.data.user, token: res.data.token }));
     return { success: true };
   } catch (err) {
-    const errorMsg = err.response?.data?.error || 'Registration failed';
+    let errorMsg = err.response?.data?.error || 'Registration failed';
+    if (err.response?.data?.details && Array.isArray(err.response.data.details)) {
+      errorMsg = err.response.data.details.map(d => d.message).join(', ');
+    }
     dispatch(authFailure(errorMsg));
     return { success: false, error: errorMsg };
   }
@@ -66,7 +69,10 @@ export const loginUser = (data) => async (dispatch) => {
     dispatch(authSuccess({ user: res.data.user, token: res.data.token }));
     return { success: true };
   } catch (err) {
-    const errorMsg = err.response?.data?.error || 'Login failed';
+    let errorMsg = err.response?.data?.error || 'Login failed';
+    if (err.response?.data?.details && Array.isArray(err.response.data.details)) {
+      errorMsg = err.response.data.details.map(d => d.message).join(', ');
+    }
     dispatch(authFailure(errorMsg));
     return { success: false, error: errorMsg };
   }
